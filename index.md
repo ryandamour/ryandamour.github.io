@@ -1,37 +1,60 @@
-## Welcome to GitHub Pages
+## Hello, World!
 
-You can use the [editor on GitHub](https://github.com/ryandamour/ryandamour.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### `whoami`
 
 ```markdown
-Syntax highlighted code block
+                                   Linux User's Manual
+NAME
+Ryan D'Amour
 
-# Header 1
-## Header 2
-### Header 3
+SYNOPSIS
+ryan [--security-engineer devops|other]
 
-- Bulleted
-- List
+SUMMARY
+I'm a Security Engineer with skills in linux, automation, and devops.  
 
-1. Numbered
-2. List
+OPTIONS
+--security-engineer devops
 
-**Bold** and _Italic_ and `Code` text
+Extensive experience with Linux Administration and Automation
 
-[Link](url) and ![Image](src)
+* Terraform - Orchestrates multiple cloud environments.  Creates custom modules.
+* Packer - Builds AMIs and Docker Containers w/ Saltstack
+* Salt-Stack - Infrastructure, infrastructure hardening, and container automation.  
+* Familiar with GitFlow methodology
+* Created custom hardening benchmarks w/ Ansible and Salt-Stack
+* Zeek + Suricata automation
+* Splunk architecture automation
+* Elastic architecture automation
+* Systems unit testing with PaX + GrSec
+* Built "DevSecOps" pipelines using tools such as Qualys and Twistlock
+* Docker container hardening
+
+Certifications:
+
+* Offensive Security Certified Professional (OSCP)
+* Splunk Architect (6.x)
+* RedHat Certified Systems Administrator (RHCSA)
+* RedHat Certified Engineer (RHCE)
+* CCNA + CCNP Switch
+
+--other
+
+Recent project I was proud of:
+
+Built S3 "DataLake" for beats logs via Cribl.  Created custom Golang file watcher to batch process data to Elastic cluster running on k8s.  Built entire Elastic fleet w/ container, and managed k8s implementation via Salt-Stack.
+
+HISTORY
+* Stage2Security - Principal Cloud Security Engineer
+* CitizensBank - VP of Container and Cloud Security
+* Elastic - Principal Cloud Security Engineer
+* Defense Point Security 
+  - Principal Cloud Security Engineer
+  - Senior Security Engineer
+* Ebocom - System Technician
+
+* E-mail: ryandamour at gmail dot com
+* LinkedIn: https://www.linkedin.com/in/ryan-d-amour-7a45a923/
+* GitHub: https://www.github.com/ryandamour
+* GitLab: https://www.gitlab.com/ryandamour
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ryandamour/ryandamour.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
